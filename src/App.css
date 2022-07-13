@@ -1,0 +1,71 @@
+*{
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+.App {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+.App h1{
+  text-align: center;
+  background-color: black;
+  color: tomato;
+  height: 7vh;
+  width: 100%;
+}
+.Posts{
+  margin: 20px;
+  border: 1px solid tomato;
+  height: 45vh;
+  width: 30vw;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+.Posts input{
+  padding: 10px;
+  font-size: 20px;
+  width: 90%;
+}
+.allinput{
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  margin: 20px;
+}
+.Submit{
+  cursor: pointer;
+  padding: 10px;
+  background-color: tomato;
+  color: antiquewhite;
+  width: fit-content;
+  border: none;
+  padding: 10px;
+  font-size: 20px;
+  margin: 20px;
+  outline: none;
+}
+.Result{
+  border: 1px solid tomato;
+  width: 50%;
+}
+/* .Allresult{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  flex-direction: column;
+  margin: 10px;
+} */
+.posting{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.towce{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
